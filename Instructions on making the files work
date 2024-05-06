@@ -1,0 +1,3 @@
+Update the gradle dependencies by adding: implementation(libs.appcompat)
+Update libs.versions.toml by adding: appcompat = "1.4.1" to [versions] and appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" } to [libraries]
+If those are already added to your files, disregard this.
